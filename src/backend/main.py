@@ -82,7 +82,7 @@ def read_task(user_id: str):
 
 # UPDATE
 
-# this should work but mysqlworkbench broken so i used mariadb, but it does not have datatype boolean so i set isCompleted in mine as tinyint, but because of the difference in set datatype it says unprocessable entity on my side
+# this should work but mysqlworkbench broken so i used mariadb, but it does not have datatype boolean so i set isCompleted in mine as tinyint
 
 # @app.put("/tasks/{task_id}")
 # def update_task(task_id: int, task: TaskBase):
